@@ -18,7 +18,7 @@ namespace spil
         {
 			Console.WriteLine("Vælg spil");
 			Console.WriteLine("1. TicTacToe");
-			Console.WriteLine("2. Sænke slagskip");
+			Console.WriteLine("2. Sænke Slagskibe");
 			string choise = Console.ReadLine();
 			if (choise == "1")
 			{
@@ -27,8 +27,8 @@ namespace spil
 			}
 			if (choise == "2")
 			{
-				BattleShip battleShip = new BattleShip();
-				battleShip.battleship();
+			    BattleShipMenu battleShipMenu = new BattleShipMenu();
+                battleShipMenu.show();
 			}
         }
     }
