@@ -16,8 +16,20 @@ namespace spil
 
         private void Run()
         {
-			TicTacTotBattleShipMenu ticTacTotBattleShipMenu = new TicTacTotBattleShipMenu();
-			ticTacTotBattleShipMenu.Show();
+			Console.WriteLine("Vælg spil");
+			Console.WriteLine("1. TicTacToe");
+			Console.WriteLine("2. Sænke slagskip");
+			string choise = Console.ReadLine();
+			if (choise == "1")
+			{
+				TicTacToeMainMenu ticTacToeMainMenu = new TicTacToeMainMenu();
+				ticTacToeMainMenu.Show();
+			}
+			if (choise == "2")
+			{
+				BattleShip battleShip = new BattleShip();
+				battleShip.battleship();
+			}
         }
     }
 }
