@@ -1,7 +1,7 @@
 ﻿using System;
 namespace spil
 {
-    internal class BattleShipMenu
+    public class BattleShipMenu
     {
         BattleShip battleShip { get; set; }
         public void show()

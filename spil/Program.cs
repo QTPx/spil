@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace spil
 {
     class Program
@@ -12,6 +13,8 @@ namespace spil
         {
             Program myProgram = new Program();
             myProgram.Run();
+            
+            
         }
 
         private void Run()
