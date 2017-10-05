@@ -9,8 +9,6 @@ namespace spil
 	public class BattleShip
 	{
 		public char[,] GameBoard { get; set; }
-        public static object ShipOrientation { get; private set; }
-
         public BattleShip()
         {
             GameBoard = new char[10, 10] { {' ', ' ', ' ',' ' , ' ', ' ', ' ', ' ',' ' , ' '},
@@ -74,9 +72,6 @@ namespace spil
             resultat = resultat + "       1     2     3     4     5     6     7     8     9     10    X\n";
             
                 return resultat;
-
-
-                
         }
 	}
 }
