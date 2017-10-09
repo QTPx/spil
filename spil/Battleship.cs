@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace spil
+﻿namespace spil
 {
-	public class BattleShip
-	{
-		public char[,] GameBoard { get; set; }
+    public class BattleShip
+    {
+        public char[,] GameBoard { get; set; }
         public BattleShip()
         {
             GameBoard = new char[10, 10] { {' ', ' ', ' ',' ' , ' ', ' ', ' ', ' ',' ' , ' '},
@@ -26,11 +20,11 @@ namespace spil
         public string GetGameBoardView()
         {
             string resultat = "";
-			resultat = resultat + "    \n";
+            resultat = resultat + "    \n";
             resultat = resultat + "     Y\n";
             resultat = resultat + "     ***************************************************************\n";
             resultat = resultat + "      *     *     *     *     *     *     *     *     *     *     *\n";
-            resultat = resultat + "  1   *  " + GameBoard[0, 9] + "  *  " + GameBoard[1, 9] + "  *  " + GameBoard[2, 9] + "  *  " + GameBoard[3, 9] + "  *  " + GameBoard[4, 9] + "  *  " + GameBoard[5, 9] + "  *  " + GameBoard[6, 9] + "  *  " + GameBoard[7, 9] + "  *  " + GameBoard[8, 9] + "  *  " + GameBoard[9, 9] + "  *\n"; 
+            resultat = resultat + "  1   *  " + GameBoard[0, 9] + "  *  " + GameBoard[1, 9] + "  *  " + GameBoard[2, 9] + "  *  " + GameBoard[3, 9] + "  *  " + GameBoard[4, 9] + "  *  " + GameBoard[5, 9] + "  *  " + GameBoard[6, 9] + "  *  " + GameBoard[7, 9] + "  *  " + GameBoard[8, 9] + "  *  " + GameBoard[9, 9] + "  *\n";
             resultat = resultat + "      *     *     *     *     *     *     *     *     *     *     *\n";
             resultat = resultat + "      ***************************************************************\n";
             resultat = resultat + "      *     *     *     *     *     *     *     *     *     *     *\n";
@@ -70,9 +64,8 @@ namespace spil
             resultat = resultat + "      *     *     *     *     *     *     *     *     *     *     *\n";
             resultat = resultat + "      ***************************************************************\n";
             resultat = resultat + "       1     2     3     4     5     6     7     8     9     10    X\n";
-            
-                return resultat;
-        }
-	}
-}
 
+            return resultat;
+            }
+            }
+        }
