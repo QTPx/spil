@@ -54,6 +54,19 @@ namespace spil
         }
         private void DoActionFor2()
         {
+			
+			String PrintSelect = "";
+			PrintSelect += "vælg skibstype \n";
+			PrintSelect += "\n";
+			PrintSelect += "1. Hangarskib " + " tilbage\n"; //husk at tilføje antal her og under
+			PrintSelect += "2. Slagskib " + " tilbage\n"; 
+			PrintSelect += "3. Destroyer " + " tilbage\n"; 
+			PrintSelect += "4. Ubåd " + " tilbage\n";
+			PrintSelect += "5. Patroljeskib " + "tilbage hej\n";
+
+			Console.WriteLine(PrintSelect);
+
+			Console.ReadLine();
 
         }
     }

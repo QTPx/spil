@@ -27,6 +27,7 @@ namespace spil
 			}
 			if (choise == "2")
 			{
+				
 			    BattleShipMenu battleShipMenu = new BattleShipMenu();
                 battleShipMenu.show();
 			}
