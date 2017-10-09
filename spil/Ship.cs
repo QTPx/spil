@@ -115,12 +115,14 @@ s = new Ship()
     }
 
 
+
+        
 public string Name { get; private set; }
 public object Orientation { get; private set; }
 public int ExtentUnits { get; private set; }
 public int Position_Row { get; private set; }
 public int Position_Col { get; private set; }
 public object ShipOrientation { get; private set; }
-
+public object Horizontal { get; set; VerticalContentAlignment; }
 }
 }
