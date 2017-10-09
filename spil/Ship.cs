@@ -16,9 +16,9 @@ List<Ship> lstShips = new List<Ship>();
     {
         Name = "Battleship",
         Orientation = ShipOrientation.Horizontal,
-        ExtentUnits = 5,
-        Position_Row = 1,
-        Position_Col = 1
+        ExtentUnits = 4,
+        Position_Row = x - 1,
+        Position_Col = y - 1
     };
     lstShips.Add(s);
 
@@ -26,9 +26,9 @@ List<Ship> lstShips = new List<Ship>();
   {
       Name = "Battleship",
       Orientation = ShipOrientation.Vertical,
-      ExtentUnits = 5,
-      Position_Row = 1,
-      Position_Col = 1
+      ExtentUnits = 4,
+      Position_Row = x - 1,
+      Position_Col = y - 1
   };
         lstShips.Add(s);
 
@@ -36,19 +36,19 @@ List<Ship> lstShips = new List<Ship>();
         {
         Name = "Destroyer",
    Orientation = ShipOrientation.Horizontal,
-   ExtentUnits = 4,
-   Position_Row = 4,
-   Position_Col = 2
-  };
+   ExtentUnits = 3,
+            Position_Row = x - 1,
+            Position_Col = y - 1
+        };
     lstShips.Add(s);
 
   s = new Ship()
   {
       Name = "Destroyer",
       Orientation = ShipOrientation.Vertical,
-      ExtentUnits = 4,
-      Position_Row = 4,
-      Position_Col = 2
+      ExtentUnits = 3,
+      Position_Row = x - 1,
+      Position_Col = y - 1
   };
         lstShips.Add(s);
 
@@ -56,9 +56,9 @@ List<Ship> lstShips = new List<Ship>();
         {
         Name = "Submarine",
         Orientation = ShipOrientation.Vertical,
-        ExtentUnits = 4,
-        Position_Row = 2,
-        Position_Col = 7
+        ExtentUnits = 3,
+            Position_Row = x - 1,
+            Position_Col = y - 1
         };
         lstShips.Add(s);
 
@@ -66,7 +66,7 @@ List<Ship> lstShips = new List<Ship>();
         {
         Name = "Submarine",
         Orientation = ShipOrientation.Horizontal,
-        ExtentUnits = 4,
+        ExtentUnits = 3,
         Position_Row = x - 1,
         Position_Col = y - 1
         };
@@ -76,7 +76,7 @@ List<Ship> lstShips = new List<Ship>();
         {
         Name = "Carrier",
         Orientation = ShipOrientation.Horizontal,
-        ExtentUnits = 4,
+        ExtentUnits = 5,
         Position_Row = x - 1,
         Position_Col = y - 1
         };
@@ -86,7 +86,7 @@ List<Ship> lstShips = new List<Ship>();
         {
         Name = "Carrier",
         Orientation = ShipOrientation.Vertical,
-        ExtentUnits = 4,
+        ExtentUnits = 5,
         Position_Row = x - 1,
         Position_Col = y - 1
         };
@@ -96,7 +96,7 @@ List<Ship> lstShips = new List<Ship>();
         {
         Name = "Patrol Ship",
         Orientation = ShipOrientation.Vertical,
-        ExtentUnits = 4,
+        ExtentUnits = 2,
         Position_Row = x - 1,
         Position_Col = y - 1
         };
@@ -106,7 +106,7 @@ List<Ship> lstShips = new List<Ship>();
         {
         Name = "Patrol Ship",
         Orientation = ShipOrientation.Horizontal,
-        ExtentUnits = 4,
+        ExtentUnits = 2,
         Position_Row = x - 1,
         Position_Col = y - 1
         };
